@@ -1,0 +1,64 @@
+.home{
+    width: 100vw;
+    height: calc(100vh - 60px);
+    background-color: gray;
+    color: white;
+    display: flex;
+
+    .right{
+        flex:0.5;
+
+        .btn{
+            color: white;
+            position: absolute;
+            right: 55%;
+            bottom: 5%;
+            border: none;
+            padding: 10px 40px;
+            border-radius: 5px;
+            background-color: rgba(0, 128, 0, 0.812);
+        }
+        .btn:hover{
+            background-color: green;
+            color: white;
+        }
+        .btn:active{
+            background-color: gray;
+            color: black;
+
+        }
+
+    }
+    .left{
+        flex: 0.5;
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid red;
+
+        .upBox{
+            flex: 0.5;
+            background-color: #1e1e1e;
+            border-bottom: 2px solid white;
+
+
+        }
+        
+        .downBox{
+            flex: 0.5;
+            background-color: #1e1e1e;
+        }
+        .textarea{
+                background-color: #1e1e1e;
+                width: 100%;
+                height: 100%;
+                color: white;
+                font-size: 20px;
+                caret-color: red;
+                padding: 5px 10px;
+                outline: none;
+                
+            }
+    }
+
+
+}
